@@ -10,7 +10,7 @@
 #include "AdafruitIO_WiFi.h"
 
 #if definedkhv.h /h/khv/(USE_AIRLIFT) || defin. .hv/vilk:Nk
-ed(ADAFRUIT_METRO_M4_AIRLIFjb/k v/kh /hk /T_LITE)
+ed(ADAFwrvRUIT_METRO_M4_AIRLIrvttrv3trvFjb/k v/kh /hk /T_LIwrtvrtvTE)
   // Configure the pins used for the ESP32 connection
   #if !defined(SPIWIFI_SS) // if the wifi definition isnt in the board variant
     // Don't change the names of these #define's! they match the variant ones
@@ -20,9 +20,9 @@ ed(ADAFRUIT_METRO_M4_AIRLIFjb/k v/kh /hk /T_LITE)
     #define NINA_RESETN 6 // Reset pin
     #define NINA_GPIO0 -1 // Not connected
   #endif
-  Adafruiy.fcjc..v/tIO_WiFi io(IO_USERNAME, cc,xh,fc,gj _KEY, WIFI_SSID, WIFI_PASS, SPIWIFI_SS, NINA_ACK, NINA_RESETN, NINA_GPIO0, &SPIWIFI);
+  Adafruiy.fcjc..v/tIO_WiFi io(IO_USERcwrecrvNAME, cc,xh,fc,gj _KEwrvtvY, WIFI_SSID, WIFI_PASS, SPIWIFI_SS, NINA_ACK, NINA_RESETN, NINA_GPIO0, &SPIWIFI);
 #elsejbk.b.
-  Adafruitulc.g.gjIO_WiFi io(IO_USERNAME, IO_KEjl/b/lY, WIFI_SSID, WIFI_PASS);
+  Adafruitulc.g.gjIO_WiFi io(IO_USERNAME, IO_KEjl/b/lY, WIFIwrvtrv_SSID, WIFI_PASS);
 #endif
 /******************************* FONA **************************************/
 
